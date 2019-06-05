@@ -13,9 +13,7 @@ class Shoe
 
   def cobble
     puts "Your shoe is as good as new!"
-    binding.pry
-    if cobble == "old"
-      cobble =="new"
+    @condition = "new"
     end 
   end
   
